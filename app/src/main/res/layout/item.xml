@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.yzz.com.scrolldeleteview.ScrollDeleteView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_text"
+        />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:textColor="#ffffff"
+        android:text="删除"
+        />
+    <Button
+        android:id="@+id/btn_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000ff"
+        android:textColor="#ffffff"
+        android:text="置顶"
+        />
+
+</android.yzz.com.scrolldeleteview.ScrollDeleteView>
